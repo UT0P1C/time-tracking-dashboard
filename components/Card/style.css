@@ -1,0 +1,66 @@
+.card{
+	height: 210px;
+	width: 220px;
+	background-color: hsl(235, 46%, 20%);
+	margin: 15px;
+	border-radius: 10px;
+}
+
+#title{
+	display: flex;
+	justify-content: space-between;
+	margin: 10px;
+}
+
+
+.header img {
+	width: 50px;
+}
+
+.card p {
+	font-size: 18px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	font-weight: lighter;
+}
+
+.card h3{
+	font-size: 40px;
+	font-weight: lighter;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.header{
+	border-radius: 10px;
+	height: 50px;
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+
+
+
+#work {
+	background-color: hsl(15, 100%, 70%);
+}
+
+#play {
+	background-color: hsl(195, 74%, 62%);
+}
+
+#study {
+	background-color: hsl(348, 100%, 68%);
+}
+
+#exercise {
+	background-color: hsl(145, 58%, 55%);
+}
+
+#social {
+	background-color: hsl(264, 64%, 52%);
+}
+
+#self-care{
+	background-color: hsl(43, 84%, 65%);
+}

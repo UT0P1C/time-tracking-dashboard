@@ -1,0 +1,45 @@
+.profile{
+	color: #fff;
+}
+
+.profile-container{
+	display: flex;
+	flex-direction: column;
+	width: 200px;
+	height: 450px;
+	background-color: hsl(235, 46%, 20%);
+	border-radius: 10px;
+	text-align: center;
+}
+
+.profile-container a {
+	text-decoration: none;
+	color: hsl(235, 45%, 61%);
+	margin-top: 30px;
+}
+
+.profile-container a:hover {
+	color: #fff;
+}
+
+.profile-header img {
+	margin-top: 25px;
+	width: 80px;
+	border-radius: 50%;
+	border: 3px solid #fff;
+}
+
+.profile-header p {
+	font-size: 18px;
+	margin-top: 25px;
+}
+
+.profile-header{
+	height: 60%;
+	background-color: hsl(246, 80%, 60%);
+	border-radius: 10px;
+}
+
+#name {
+	font-size: 30px;
+}
